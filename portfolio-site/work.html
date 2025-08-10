@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Work — Taylor Rivera</title>
+  <meta name="description" content="Portfolio of branding, packaging, and illustration projects by Taylor Rivera.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css?v=1">
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Home">
+        <img src="assets/img/logo.svg" alt="TR" width="32" height="32" />
+        <span>Taylor Rivera</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="navMenu">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </button>
+        <ul id="navMenu" class="nav-menu">
+          <li><a class="is-active" href="work.html">Work</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a class="btn btn-primary" href="contact.html">Contact</a></li>
+          <li><button class="theme-toggle" aria-label="Toggle theme" title="Toggle theme">🌙</button></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content">
+    <section class="page-head">
+      <div class="container">
+        <h1>Selected work</h1>
+        <p class="muted">A mix of brand identities, packaging systems, and editorial illustration.</p>
+        <div class="filters" role="tablist" aria-label="Project filters">
+          <button class="chip is-active" data-filter="All" role="tab" aria-selected="true">All</button>
+          <button class="chip" data-filter="Branding" role="tab">Branding</button>
+          <button class="chip" data-filter="Packaging" role="tab">Packaging</button>
+          <button class="chip" data-filter="Illustration" role="tab">Illustration</button>
+          <button class="chip" data-filter="Typography" role="tab">Typography</button>
+          <button class="chip" data-filter="Web" role="tab">Web</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div id="workGrid" class="grid-auto cards"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Taylor Rivera. All rights reserved.</p>
+      <ul class="social">
+        <li><a href="https://www.behance.net/" target="_blank" rel="noreferrer">Behance</a></li>
+        <li><a href="https://dribbble.com/" target="_blank" rel="noreferrer">Dribbble</a></li>
+        <li><a href="https://instagram.com/" target="_blank" rel="noreferrer">Instagram</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <div id="lightbox" class="lightbox" aria-hidden="true" hidden>
+    <button class="lightbox-close" aria-label="Close">✕</button>
+    <img id="lightboxImg" alt="Project image" />
+    <p id="lightboxCaption"></p>
+  </div>
+
+  <script src="assets/js/main.js?v=1" defer></script>
+</body>
+</html>

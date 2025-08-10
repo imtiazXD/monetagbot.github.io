@@ -1,0 +1,74 @@
+[
+  {
+    "id": "orion-branding",
+    "title": "Orion Branding System",
+    "category": "Branding",
+    "tags": ["Branding", "Identity", "Typography"],
+    "image": "https://images.unsplash.com/photo-1520975964732-35dd22f47526?q=80&w=1600&auto=format&fit=crop",
+    "description": "Comprehensive visual identity with modular logo suite and type system.",
+    "link": "#"
+  },
+  {
+    "id": "sprout-packaging",
+    "title": "Sprout Tea Packaging",
+    "category": "Packaging",
+    "tags": ["Packaging", "Print", "Illustration"],
+    "image": "https://images.unsplash.com/photo-1520690214124-2405c5217031?q=80&w=1600&auto=format&fit=crop",
+    "description": "Sustainable packaging with hand-drawn botanical illustrations.",
+    "link": "#"
+  },
+  {
+    "id": "alto-editorial",
+    "title": "ALTO Editorial Covers",
+    "category": "Illustration",
+    "tags": ["Illustration", "Editorial", "Color"],
+    "image": "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?q=80&w=1600&auto=format&fit=crop",
+    "description": "Vibrant cover series exploring rhythm and geometry.",
+    "link": "#"
+  },
+  {
+    "id": "northbound-web",
+    "title": "Northbound Studio Site",
+    "category": "Web",
+    "tags": ["Web", "Art Direction", "Typography"],
+    "image": "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?q=80&w=1600&auto=format&fit=crop",
+    "description": "A minimal site with expressive type and motion.",
+    "link": "#"
+  },
+  {
+    "id": "vista-identity",
+    "title": "Vista Rebrand",
+    "category": "Branding",
+    "tags": ["Branding", "Strategy", "Logo"],
+    "image": "https://images.unsplash.com/photo-1484712401471-05c7215830eb?q=80&w=1600&auto=format&fit=crop",
+    "description": "Refreshed identity emphasizing clarity and craft.",
+    "link": "#"
+  },
+  {
+    "id": "hearth-labels",
+    "title": "Hearth Coffee Labels",
+    "category": "Packaging",
+    "tags": ["Packaging", "Print", "Color"],
+    "image": "https://images.unsplash.com/photo-1523359346063-d879354c0ea5?q=80&w=1600&auto=format&fit=crop",
+    "description": "A flexible label system using a modular color palette.",
+    "link": "#"
+  },
+  {
+    "id": "spruce-illustrations",
+    "title": "Spruce Poster Series",
+    "category": "Illustration",
+    "tags": ["Illustration", "Poster", "Texture"],
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1600&auto=format&fit=crop",
+    "description": "Silkscreened posters combining letterforms and organic shapes.",
+    "link": "#"
+  },
+  {
+    "id": "typographica",
+    "title": "Typographica Explorations",
+    "category": "Typography",
+    "tags": ["Typography", "Print", "Grid"],
+    "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1600&auto=format&fit=crop",
+    "description": "Experimental type posters and systems.",
+    "link": "#"
+  }
+]
